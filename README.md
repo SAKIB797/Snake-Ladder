@@ -5,7 +5,7 @@ This is a simple implementation of the classic Snake and Ladder game in C.
 ## How to Play
 1. Compile the `main.c` file.
 2. Run the compiled executable.
-3. Enter the number of players.
+3. Enter the name of players.
 4. Roll the dice when prompted and move your token accordingly.
 5. Climb ladders and beware of snakes!
 
