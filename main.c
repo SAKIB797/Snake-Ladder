@@ -26,7 +26,7 @@ void displayBoard(int player1Position, int player2Position)
     printf("| Snakes: 99 to 1, 65 to 40, 25 to 9              |\n");
     printf("| Ladders: 13 to 42, 60 to 83, 70 to 93           |\n");
     printf("|-------------------------------------------------|\n");
-    printf("| %s's Position: %-3d | %s's Position: %-3d |\n", gamePlay.p1_name, player1Position, gamePlay.p2_name, player2Position);
+    printf("|   %s's Position: %-3d | %s's Position: %-3d|\n", gamePlay.p1_name, player1Position, gamePlay.p2_name, player2Position);
     printf("|-------------------------------------------------|\n");
 
     int row, col, cellValue;
