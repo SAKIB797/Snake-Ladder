@@ -26,7 +26,7 @@ void displayBoard(int player1Position, int player2Position)
     printf("| Snakes: 99 to 1, 65 to 40, 25 to 9              |\n");
     printf("| Ladders: 13 to 42, 60 to 83, 70 to 93           |\n");
     printf("|-------------------------------------------------|\n");
-    printf("|   %s's Position: %-3d | %s's Position: %-3d|\n", gamePlay.p1_name, player1Position, gamePlay.p2_name, player2Position);
+    printf("| %s's Position: %-3d | %s's Position: %-3d |\n", gamePlay.p1_name, player1Position, gamePlay.p2_name, player2Position);
     printf("|-------------------------------------------------|\n");
 
     int row, col, cellValue;
@@ -69,8 +69,6 @@ int main()
     printf("|           Inspiration: GeeksforGeeks            |\n");
     printf("|-------------------------------------------------|\n");
 
-
-
     // Player name selection
     printf("\n> Player 1 name: ");
     scanf(" %[^\n]", gamePlay.p1_name);
@@ -102,9 +100,9 @@ int main()
     {
 
         // for limited mode
-        if (mode == 1 )
+        if (mode == 1)
         {
-            if(no_of_round)
+            if (no_of_round)
                 no_of_round--;
             else
                 break;
@@ -208,10 +206,10 @@ int main()
     if (mode == 1)
         fprintf(score, "Number of round: %d\n", gamePlay.round);
 
-    fprintf(score, "Player 1 name: %s\nPlayer 2 name: %s\n", gamePlay.p1_name, gamePlay.p2_name);  // write players name in file
+    fprintf(score, "Player 1 name: %s\nPlayer 2 name: %s\n", gamePlay.p1_name, gamePlay.p2_name); // write players name in file
     fprintf(score, "Player 1 score: %d\nPlayer 2 score: %d\n", player1Position, player2Position); // write players score in file
 
-    if(choice != 'q')  // write in file if game not ended by the user, It means the continuity of the game until a player win or draw.
+    if (choice != 'q') // write in file if game not ended by the user, It means the continuity of the game until a player win or draw.
     {
         if (player1Position > player2Position)
             fprintf(score, "Result: %s wins!\n", gamePlay.p1_name);
@@ -222,7 +220,7 @@ int main()
     }
     else // write if game ended by the players
     {
-        fprintf(score,"Game ended by user.\n");
+        fprintf(score, "Game ended by user.\n");
     }
     fprintf(score, "\n\n");
 

@@ -10,3 +10,15 @@ Player 2 score: 3
 Result: Tom wins!
 
 
+Score Board
+------------------
+Tue Feb 13 09:28:55 2024
+Game mode: Limited round mode
+Number of round: 4
+Player 1 name: Mr Fox
+Player 2 name: Miss Cat
+Player 1 score: 8
+Player 2 score: 7
+Result: Mr Fox wins!
+
+
