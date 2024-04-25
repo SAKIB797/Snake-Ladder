@@ -1,3 +1,4 @@
+
 # Snake & Ladder Game 🐍🎲
 
 ## Overview
@@ -47,7 +48,7 @@ This project is open-sourced under the MIT License.
 - **Author**: Iftekhar Sakib
 - **Email**: ihSakib@outlook.com
 - **Facebook**: [SAKIB797](https://www.facebook.com/SAKIB797)
-- **Linkedin**: [ihSakib](www.linkedin.com/in/ihsakib)
+- **Linkedin**: [ihSakib](www.linkedin.com/in/ihsakib/)
 ---
 
 Enjoy the game and may the odds be ever in your favor! 🎉
