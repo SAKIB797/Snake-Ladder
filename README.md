@@ -46,8 +46,8 @@ This project is open-sourced under the MIT License.
 ## Contact
 - **Author**: Iftekhar Sakib
 - **Email**: ihSakib@outlook.com
-- **Facebook**: <a href="https://www.facebook.com/SAKIB797" target="_blank" > Iftekhar Sakib </a>
-- **Linkedin**: <a href="www.linkedin.com/in/ihsakib" target="_blank" > ihSakib </a>
+- **Facebook**: [SAKIB797](https://www.facebook.com/SAKIB797)
+- **Linkedin**: [ihSakib](www.linkedin.com/in/ihsakib)
 ---
 
 Enjoy the game and may the odds be ever in your favor! 🎉
